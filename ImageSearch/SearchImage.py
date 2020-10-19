@@ -25,6 +25,7 @@ print(img)
 file = input(
     "-*-*-*-*-*-\nDrag and Drop \nOR\nPaste the full path of the Image\n-*-*-*-*-*-*-\n==>  ")
 file_name = os.path.abspath(file)
+print("Searching...")
 
 # path for chromedriver
 option = webdriver.ChromeOptions()
