@@ -7,6 +7,8 @@
 ```
 python >= 3.8
 pip >= 20.2.x
+git >= 2.28.x
+
 ```
 
 After installing the above requirements
@@ -15,6 +17,14 @@ After installing the above requirements
 
 ```
 pip install -r requirements.txt
+```
+
+## Getting this Project into your System
+
+Open the Terminal or cmd/powershell in the desired Directory then:
+
+```
+git clone https://github.com/knight-byte/Random-Python-Program.git
 ```
 
 ## Note:
