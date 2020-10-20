@@ -41,7 +41,6 @@
 # Note :
 
 - This Program is only sort the files Not the Folder, it will keep it as it is.
-- If the Program doesnt Recognize the file extention it will keep them in `Unknown ` Folder.
 - You can add more extention in the Program to add your file to suitable Folder if not available
 - This program is very Usefull for people like me who have all content in one folder or Students keep all their lecture Notes images ,pdfs,ppts.etc in one folder which will take up time to sort out all the stuff
 - With this Just Pasting the Folder path or Dragging and Dropping the Folder in the terminal or CMS/powerline will do all that stuff for YOU
