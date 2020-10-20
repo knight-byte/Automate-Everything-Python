@@ -50,7 +50,7 @@ doc_type = ['ppt', 'doc', 'pptx', 'docx', 'pdf', 'txt', 'xls', 'xlsx']
 # program and executable extention
 prog_type = ['py', 'ipynb', 'java', 'jar', 'class', 'css',
              'html', 'xhtml', 'scss', 'c', 'cpp', 'cxx', 'js',
-             'xml', 'json', 'cvs', 'exe', 'bat', 'sh']
+             'xml', 'json', 'csv', 'exe', 'bat', 'sh']
 # zip file extention
 zip_file = ['zip', 'rar', 'bz2', '7z', 'gz', 'tar']
 
@@ -184,7 +184,7 @@ try:
             shutil.move(i, 'C&Cpp/'+i)
 
         # data format file
-        elif ext in ['xml', 'cvs', 'json']:
+        elif ext in ['xml', 'csv', 'json']:
             if not os.path.isdir(up_dir+'/dataFormat'):
                 os.mkdir('dataFormat')
             shutil.move(i, 'dataFormat/'+i)
