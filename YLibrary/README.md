@@ -33,9 +33,11 @@ pip install selenium
 
 - Then it will prompt user to select the book to Download (user can select the book by entering the number infront of the book)
 
-![5](img/44.png)
+![5](img/33.png)
 
 ### And it will automatically start downloading the book and will show the download progress bar and downloaded completed message at the bottom
+
+![6](img/333.png)
 
 ## Note :
 
