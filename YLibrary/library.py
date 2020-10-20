@@ -72,7 +72,7 @@ def get_download_progress():
 # Download Function
 def DownloadFunction():
     try:
-        time.sleep(3)
+        time.sleep(2)
 
         # greeting the Chrome download URL
         driver.get('chrome://downloads/')
@@ -81,7 +81,7 @@ def DownloadFunction():
         progress = 0
 
         # looping till progress is 100%
-        while progress <= 100:
+        while progress <= 101:
 
             progress = get_download_progress()[0]
             rate = str(get_download_progress()[1])
@@ -93,10 +93,11 @@ def DownloadFunction():
 
             # if any error occur in downloading then
             if rate == None or len(rate) == 12:
-                print("Error while downloading the book")
+                print("Download Comleted check the default download location")
+
                 break
-        print("Download Comleted check the default download location")
-    except:
+    except Exception as e:
+        print(e)
         print("Unable to download or You have already Downloaded 5 book in 24hr")
 
 
