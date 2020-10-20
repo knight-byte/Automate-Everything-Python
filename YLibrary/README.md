@@ -2,7 +2,7 @@
 
 ### This program is basically a Book downloader using command line i.e.
 
-- Terminal in Linux or Max
+- Terminal in Linux or Mac
 - CMD(Command prompt) or PowerShell in Windows
 
 ### This program uses Selenium to perform the action in the browser
@@ -48,3 +48,5 @@ This Program is just for fun purpose and knowing how thing interact with each ot
   ![limit](img/4.png)
 
 - After download is completed it will be downloaded in Default download loction ,in case you dont find that book in the Download location it will be in the folder where this program is running.
+
+## Made with ❤ in India
