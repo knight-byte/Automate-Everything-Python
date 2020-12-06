@@ -24,7 +24,7 @@ pip install -r requirements.txt
 Open the Terminal or cmd/powershell in the desired Directory then:
 
 ```
-git clone https://github.com/knight-byte/Random-Python-Program.git
+git clone https://github.com/knight-byte/Automate-Everything-Python.git
 ```
 
 ## Note:
