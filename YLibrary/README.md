@@ -5,7 +5,7 @@
 - Terminal in Linux or Mac
 - CMD(Command prompt) or PowerShell in Windows
 
-```
+
 
 ## To get started with this program
 
