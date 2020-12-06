@@ -5,17 +5,11 @@
 - Terminal in Linux or Mac
 - CMD(Command prompt) or PowerShell in Windows
 
-### This program uses Selenium to perform the action in the browser
-
-Installing the Selenium
-
-```
-pip install selenium
 ```
 
 ## To get started with this program
 
-- Run the `library.py` int the terminal or CMD or powershell
+- Run the `libraryV2.py` int the terminal or CMD or powershell
 
 ![1](img/11.png)
 
